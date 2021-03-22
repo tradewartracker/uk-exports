@@ -72,7 +72,7 @@ def make_plot():
         level_series = "growth"
         
          
-    lead_title = "UK Exports from "
+    lead_title = "UK Exports to "
     
     title_name = ""
         
