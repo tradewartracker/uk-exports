@@ -36,7 +36,7 @@ product_options = df.index.unique(1).to_list()
 
 #print(options)
 
-product = 'Total'
+product = 'Total (ex. metals)'
 country = "Total EU(28)"
 
 level = "UK Pounds"
@@ -199,8 +199,8 @@ country_select.on_change('value', update_plot)
 #################################################################################
 
 popt = sorted(product_options)
-popt.remove("Total")
-popt.insert(0,"Total")
+popt.remove("Total (ex. metals)")
+popt.insert(0,"Total (ex. metals)")
 
 product_select = Select(value=product, title='Product', options=popt, width=350)
 # This is the key thing that creates teh selection object
